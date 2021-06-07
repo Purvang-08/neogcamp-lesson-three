@@ -10,6 +10,11 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+hr
+{
+    margin: 2rem 0rem;
+}
+
 /**container**/
 .container
 {
@@ -37,4 +42,23 @@ body{
     background-color: var(--primary-color);
     border-radius: 1rem;
     color:whitesmoke;
+}
+
+.secondary-link
+{
+    color: var(--primary-color);
+    border-radius: 1rem;
+    border: 2px solid var(--primary-color);
+    
+}
+
+.lists-non-bullet
+{
+    list-style: none;
+}
+
+.lists-item-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
