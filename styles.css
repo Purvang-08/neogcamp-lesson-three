@@ -107,3 +107,9 @@ hr
     text-align: center;
     color: var(--dark-grey);
 }
+
+.section h1
+{
+text-align: center;
+padding: 2rem;
+}
