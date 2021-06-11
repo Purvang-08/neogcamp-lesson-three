@@ -3,6 +3,7 @@
 :root
 {
     --primary-color: #1F2937;
+    --dark-grey: #4B5563;
 }
 
 
@@ -86,4 +87,23 @@ hr
 {
     color:whitesmoke;
     font-size: 1rem;
+}
+
+.hero
+{
+    padding: 2rem;
+}
+
+.hero .hero-img
+{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading
+{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--dark-grey);
 }
