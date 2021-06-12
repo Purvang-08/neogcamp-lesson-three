@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+</head>
+<body>
+    
+    <link href="/styles.css" rel="stylesheet" />
+
+    <h1>Purvang Dave's component Library</h1>
+
+    <p>Hello there, i am creating a component Library which will make all my future projects look good and consistent.
+        Right now i am only using Html.
+    </p>
+    <hr >
+
+    <h2>@typography</h2>
+
+    
+    <h1>this is the biggest heading</h1>
+    <h2>this is the second biggest heading</h2>
+    <p>this is the normal text flow</p>
+    <small>this is a relatively smaller text</small>
+    <hr>
+
+    <h2>@containers</h2>
+    <h3>@fluidcontainer</h3>
+    <div class="container">this is a fluid container. it will go full width of the page with some margin</div>
+
+    <h3>@centercontainer</h3>
+    <div class="container container-center">it will go to a given width and centered content</div>
+    <hr>
+
+    <h2>@links</h2>
+   
+    <a class="links primary-link" href="/">primary link</a>
+    <a class="links secondary-link" href="/">secondary link</a>
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered lists</h3>
+
+    <p>this will not have bullets</p>
+    <ul class="lists-non-bullet">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+    </ul>
+    <h3>unordered inline lists</h3>
+    <ul class="lists-non-bullet">
+        <li class="lists-item-inline">inline item one</li>
+        <li class="lists-item-inline">inline item two</li>
+        <li class="lists-item-inline">inline item three</li>
+    </ul>
+    <h3>reverse ordered lists</h3>
+    <ol>
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+    </ol>
+    <hr>
+
+    <h2>@nav</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+
+        <ul class="lists-non-bullet nav-pills">
+            <li class="lists-item-inline">
+                <a class="links" href="/">home</a>
+            </li>
+            <li class="lists-item-inline">
+                <a class="links" href="/">projects</a>
+            </li>
+            <li class="lists-item-inline">
+                <a class="links" href="/">about</a>
+            </li>
+
+        </ul>
+
+
+    </nav>
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="hero">
+      <img class="hero-img" src="images/hero.svg"/>
+      <h1 class="hero-heading">heading inside hero</h1>
+
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+
+        <h1>white section</h1>
+        <p>this will have a white background</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+
+        <h1>off white section</h1>
+        <p>this will have a gray background</p>
+        </div>
+    </section>
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+
+        <div class="footer-header">heading inside the footer</div>
+        <ul class="social-links lists-non-bullet">
+            <li class="lists-item-inline">
+                <a class="links" href="/">social one</a>
+            </li>
+            <li class="lists-item-inline">
+                <a class="links" href="/">social two</a>
+            </li>
+            <li class="lists-item-inline">
+                <a class="links" href="/">social three</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
