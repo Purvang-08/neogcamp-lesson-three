@@ -1,30 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600;1,800&display=swap');
 
-:root
-{
+:root {
     --primary-color: #1F2937;
     --dark-grey: #4B5563;
+    --off-white: #D1D5DB;
 }
 
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
 }
 
-hr
-{
+hr {
     margin: 2rem 0rem;
 }
 
 /**container**/
-.container
-{
+.container {
     padding-left: 2 rem;
     padding-right: 2 rem;
 }
 
-.container-center
-{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
@@ -32,84 +30,102 @@ hr
 /**links**/
 
 
-.links
-{
+.links {
     text-decoration: none;
     padding: 0.75rem 1rem;
 }
 
-.primary-link
-{
+.primary-link {
     background-color: var(--primary-color);
     border-radius: 1rem;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
-.secondary-link
-{
+.secondary-link {
     color: var(--primary-color);
     border-radius: 1rem;
     border: 2px solid var(--primary-color);
-    
+
 }
 
-.lists-non-bullet
-{
+.lists-non-bullet {
     list-style: none;
 }
 
-.lists-item-inline
-{
+.lists-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
-.navigation
-{
+.navigation {
     background-color: var(--primary-color);
-    color:whitesmoke;
+    color: whitesmoke;
     padding: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 }
 
-.navigation .nav-brand
-{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-.navigation .nav-pills
-{
+.navigation .nav-pills {
     text-align: right;
 }
 
-.navigation .links
-{
-    color:whitesmoke;
+.navigation .links {
+    color: whitesmoke;
     font-size: 1rem;
 }
 
-.hero
-{
+.hero {
     padding: 2rem;
 }
 
-.hero .hero-img
-{
+.hero .hero-img {
     max-width: 500px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading
-{
+.hero .hero-heading {
     font-size: 2rem;
     text-align: center;
     color: var(--dark-grey);
 }
 
-.section h1
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.footer
 {
-text-align: center;
-padding: 2rem;
+    background-color: var(--dark-grey);
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    color: whitesmoke;
+    border-top-right-radius: 1.5rem;
+}
+
+.footer-header
+{
+    font-size: 1.5rem;
+}
+
+.footer .links
+{
+    color: whitesmoke;
+}
+
+.footer .ul
+{
+    padding-inline-start: 0px;
 }
