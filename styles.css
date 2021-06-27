@@ -62,11 +62,12 @@ hr {
     color: whitesmoke;
     padding: 1.5rem;
     border-bottom-left-radius: 1.5rem;
+    
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .navigation .nav-pills {
@@ -75,7 +76,7 @@ hr {
 
 .navigation .links {
     color: whitesmoke;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .hero {
@@ -91,7 +92,7 @@ hr {
 .hero .hero-heading {
     font-size: 2rem;
     text-align: center;
-    color: var(--dark-grey);
+    color:var(--primary-color);
 }
 
 .section {
